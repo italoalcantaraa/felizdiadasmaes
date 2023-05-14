@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    font-family: 'fonte';
+}
+.tudo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 30px
+}
+.container h1{
+    font-size: 20px;
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+}
+.baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.baixo img{
+    max-width: 500px;
+    width: 100%;
+}
+.baixo a{
+    text-align: center;
+    color: #fff;
+    font-family: 'fonte';
+    margin-top: 40px;
+    max-width: 400px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.container2 h1{
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'fonte';
+    text-align: center;
+}
+.container2 img{
+    border-radius: 5px;
+    margin: 30px;
+    max-width: 700px;
+    width: 100%;
+    max-height: 900px;
+    height: 100%;
+}
